@@ -1,6 +1,6 @@
-## Go Etherzero
+## Go F4-Coin
 
-Official golang implementation of the Etherzero(Ethereum) protocol.
+Official golang implementation of the F4-Coin(Ethereum) protocol.
 
 [![API Reference](
 https://camo.githubusercontent.com/915b7be44ada53c290eb157634330494ebe3e30a/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f676f6c616e672f6764646f3f7374617475732e737667
@@ -14,14 +14,11 @@ Binary archives are published at https://geth.ethereum.org/downloads/.
 
 ## Building the source
 
-For prerequisites and detailed build instructions please read the
-[Installation Instructions](https://github.com/etherzero/go-etherzero/wiki/Building-Ethereum)
-on the wiki.
-
 Building geth requires both a Go (version 1.9 or later) and a C compiler.
 You can install them using your favourite package manager.
 Once the dependencies are installed, run
 
+    git clone https://github.com/f4-coin/f4-coin.git
     make geth
 
 or, to build the full suite of utilities:
